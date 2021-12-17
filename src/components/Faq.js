@@ -16,12 +16,13 @@ const Faq = () => {
             <br/>
             <div className='row'>
                 <div>
-                <h3 className='title blue'> > Academic leave</h3>
+                <h3 className='title blue'> > Access without authentication  </h3>
                     <ul>
-                        <li><BiTime /> Schedules L1</li>
-                        <li><BiTime /> Schedules L2 L3 M1 M2</li>
-                        <li><AiOutlineUnorderedList /> Know my Section</li>
-                        <li><AiOutlineEye /> Teaching follow-up</li>
+                        <li><BiTime />  Academic leave</li>
+                        <li><BiTime />  Schedules L1</li>
+                        <li><BiTime />  Schedules L2, L3, M1, M2</li>
+                        <li><AiOutlineUnorderedList />  Know my Section</li>
+                        <li><AiOutlineEye />  Teaching follow-up</li>
                     </ul>
                 </div>
                 <div>
@@ -34,6 +35,7 @@ const Faq = () => {
                     </ul>
                 </div>
             </div>
+            <br/><br/>
             <h3 className='title blue'> > You can access to the same login and password</h3>
             <ul>
                 <li><AiFillMail /> To the mailbox</li>
