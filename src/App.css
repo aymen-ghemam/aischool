@@ -455,3 +455,7 @@ button.white{
     display: flex;
     justify-content: flex-start;
 }
+
+.timeTable-agenda img{
+    margin-top: 10rem;
+}
