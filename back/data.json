@@ -1,0 +1,16 @@
+[
+	{
+		"user_type":"student",
+		"email":"aymenkhouas@gmail.com",
+		"name":"aymen",
+		"password":"qwertyui",
+    "matricule":"123456788901"
+	},
+	{
+    "user_type":"teacher",
+  	"email":"aymenikhs@gmail.com",
+		"name":"aymen",
+    "password":"qwertyui",
+    "matricule":"123456788902"
+  }
+]
