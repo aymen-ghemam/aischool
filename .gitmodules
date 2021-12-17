@@ -1,0 +1,3 @@
+[submodule "src/Face-Detection-JavaScript"]
+	path = src/Face-Detection-JavaScript
+	url = git@github.com:WebDevSimplified/Face-Detection-JavaScript.git
