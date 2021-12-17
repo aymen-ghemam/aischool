@@ -1,5 +1,6 @@
 import React from 'react'
 import {IoIosMegaphone} from 'react-icons/io'
+import Annoucement from './Annoucement'
 
 const Popup = (props) => {
     return (
@@ -9,15 +10,9 @@ const Popup = (props) => {
                <h6 className='secondary title'>Find the most recent announcements in one place</h6>
                <br/>
                <br/>
-               <div className='row'> 
-                    <div><IoIosMegaphone size='1.5em' color='#F80404' /></div>
-                    <div><span>Please complete your medical file for the Preventive Medicine Unit</span></div>
-               </div>
+               <Annoucement text = 'Please complete your medical file for the Preventive Medicine Unit' />
                 <br/>
-               <div className='row'>
-                    <div><IoIosMegaphone size='1.5em' color='#F80404' /></div>
-                    <div><span>The registration fee to be paid (200 DA)</span></div>
-               </div>
+               <Annoucement text = 'The registration fee to be paid (200 DA)' />
 
                <button onClick={props.togglePopup}>OK</button>
             </div>

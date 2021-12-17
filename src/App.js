@@ -10,11 +10,13 @@ import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Popup from "./components/Popup";
 import Login from "./pages/Login";
+import Student from "./pages/Student";
 
 const App = () => {
+    const [user, setUser] = useState({});
     const [state, setstate] = useState({current: 'home', popup: false});
     const [popup, setPopup] = useState(false);
-    const [page, setPage] = useState('home');
+    const [page, setPage] = useState('student');
 
     const togglePopup = () => {
         setPopup(!popup);
@@ -32,6 +34,7 @@ const App = () => {
                 {page === 'home' && <Home current={state.current} />}
                 {page === 'login' && <Login />}
 
+                {page === 'student' && <Student />}
         </div>
     )
 }

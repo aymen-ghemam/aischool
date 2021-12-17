@@ -23,8 +23,8 @@ const Home = (props) => {
                             <h5 className='secondary title'>15 vending machines found</h5>
                             <br/>
                             <div className='row'>
-                                <Button type='grey' text='Nearby' />
-                                <Button type='blue' text= 'All' />
+                                <Button className='grey' text='Nearby' />
+                                <Button className='blue' text= 'All' />
                             </div>
 
                             <br/>   
