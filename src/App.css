@@ -332,3 +332,54 @@ button.grey{
     width: 50%;
     height: 100%;
 }
+
+.side-bar {
+    height: 100vh;
+}
+
+.side-bar ul {
+    list-style-type: none;
+}
+
+.side-bar-name {
+    height: 14%;
+    background-color: #BCE0FD;
+    padding: 1em;
+}
+
+.side-bar-menu {
+    height: 86%;
+    background-color: #2699FB
+}
+
+.side-bar-name .name {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size:2em;
+}
+
+.side-bar-name .sub-name {
+    color: #FFFFFF;
+    font-size:1em;
+}
+
+.side-bar-menu .elements {
+    display: flex;
+
+    align-items: center;
+    width: 100%;
+
+}
+
+.side-bar-menu p {
+    color: #FFFFFF;
+    font-size:1.2em;
+    padding-top: 20px;
+    padding-left: 15px;
+    word-wrap: break-word;
+}
+
+.side-bar-menu .elem {
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
