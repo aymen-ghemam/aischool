@@ -443,7 +443,6 @@ button.white{
 .student > div:first-child{
     width: 25%;
     height: 100%;
-    background-color: var(--active);
 }
 .student > .container{
     width: 75%;
@@ -455,4 +454,8 @@ button.white{
     color: #F80404;
     display: flex;
     justify-content: flex-start;
+}
+
+.timeTable-agenda img{
+    margin-top: 10rem;
 }
