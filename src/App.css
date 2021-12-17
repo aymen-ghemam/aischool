@@ -443,7 +443,6 @@ button.white{
 .student > div:first-child{
     width: 25%;
     height: 100%;
-    background-color: var(--active);
 }
 .student > .container{
     width: 75%;

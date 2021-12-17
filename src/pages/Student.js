@@ -1,11 +1,12 @@
 import React from 'react'
 import Annoucement from '../components/Annoucement'
+import SideBar from '../components/Sidebar'
 
 const Student = () => {
     return (
         <div className = 'page student row'>
             <div>
-
+                <SideBar name='Sophienez AZOUAOU' subContent='M1 MIV student'/>
             </div>
             <div className='container'>
                 <h1 className='title'>Check out the latest announcements</h1>
