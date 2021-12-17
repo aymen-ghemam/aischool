@@ -455,21 +455,13 @@ button.white{
     display: flex;
     justify-content: flex-start;
 }
-<<<<<<< HEAD
-
-<<<<<<< HEAD
 .bot{
     position: absolute;
     bottom: 1em;
     right: 1em;
     z-index: 1000;
 }
-=======
-<<<<<<< Updated upstream
+
 .timeTable-agenda img{
     margin-top: 10rem;
 }
->>>>>>> e5781e2094aea0adf608e6cbfb0195ce0636815f
-=======
->>>>>>> 445f6c33694a016ca5b140dcf14397eb69674b3a
->>>>>>> Stashed changes
