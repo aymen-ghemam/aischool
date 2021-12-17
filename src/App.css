@@ -400,3 +400,10 @@ button.white{
     display: flex;
     justify-content: flex-start;
 }
+
+.bot{
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    z-index: 1000;
+}
