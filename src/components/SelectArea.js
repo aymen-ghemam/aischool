@@ -19,8 +19,8 @@ const SelectArea = () => {
         <div className='select-area'>
             {
                 state.selects.map((select, index) => 
-                        <Radio key={index} text={select} name='area' />
-                    )
+                    <Radio key={index} text={select} name='area' />
+                )
             }
         </div>
     )
