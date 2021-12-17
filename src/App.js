@@ -12,6 +12,7 @@ import Popup from "./components/Popup";
 import Login from "./pages/Login";
 
 const App = () => {
+    const [user, setUser] = useState({});
     const [state, setstate] = useState({current: 'home', popup: false});
     const [popup, setPopup] = useState(false);
     const [page, setPage] = useState('login');
