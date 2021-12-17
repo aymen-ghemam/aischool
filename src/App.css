@@ -340,6 +340,57 @@ button.white{
     width: 50%;
     height: 100%;
 }
+
+.side-bar {
+    height: 100vh;
+}
+
+.side-bar ul {
+    list-style-type: none;
+}
+
+.side-bar-name {
+    height: 14%;
+    background-color: #BCE0FD;
+    padding: 1em;
+}
+
+.side-bar-menu {
+    height: 86%;
+    background-color: #2699FB
+}
+
+.side-bar-name .name {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size:2em;
+}
+
+.side-bar-name .sub-name {
+    color: #FFFFFF;
+    font-size:1em;
+}
+
+.side-bar-menu .elements {
+    display: flex;
+
+    align-items: center;
+    width: 100%;
+
+}
+
+.side-bar-menu p {
+    color: #FFFFFF;
+    font-size:1.2em;
+    padding-top: 20px;
+    padding-left: 15px;
+    word-wrap: break-word;
+}
+
+.side-bar-menu .elem {
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
 .login .left{
     width: 100%;
     height: 100%;
@@ -349,13 +400,16 @@ button.white{
     justify-content: space-between;
     align-items: center;
 }
+
 .login .right{
     width: 100%;
     height: 100%;
 }
+
 .login .row img{
     width: 70%;
 }
+
 .login form{
     width: 100%;
     /* height: 100%; */
@@ -364,6 +418,7 @@ button.white{
     flex-direction: column;
     position: relative;
 }
+
 .input {
     padding: 0 1em;
     width: 300px;
@@ -384,10 +439,10 @@ button.white{
     width: 100%;
     height: 100%;
 }
+
 .student > div:first-child{
     width: 25%;
     height: 100%;
-    background-color: var(--active);
 }
 .student > .container{
     width: 75%;
@@ -400,10 +455,21 @@ button.white{
     display: flex;
     justify-content: flex-start;
 }
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 .bot{
     position: absolute;
     bottom: 1em;
     right: 1em;
     z-index: 1000;
 }
+=======
+<<<<<<< Updated upstream
+.timeTable-agenda img{
+    margin-top: 10rem;
+}
+>>>>>>> e5781e2094aea0adf608e6cbfb0195ce0636815f
+=======
+>>>>>>> 445f6c33694a016ca5b140dcf14397eb69674b3a
+>>>>>>> Stashed changes
