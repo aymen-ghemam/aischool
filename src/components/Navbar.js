@@ -1,5 +1,3 @@
-// import {, Menu } from 'antd';
-import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
 import { useState } from 'react';
 import {BsSearch} from 'react-icons/bs'
 import Avatar from './Avatar';
