@@ -15,12 +15,12 @@ const App = () => {
     const [user, setUser] = useState({});
     const [state, setstate] = useState({current: 'home', popup: false});
     const [popup, setPopup] = useState(false);
-    const [page, setPage] = useState('login');
+    const [page, setPage] = useState('home');
 
     const togglePopup = () => {
         setPopup(!popup);
     }
-    
+
     const setCurrent = (current) => {
         setstate({current: current});
     }
@@ -32,7 +32,7 @@ const App = () => {
             <br/>
                 {page === 'home' && <Home current={state.current} />}
                 {page === 'login' && <Login />}
-            
+
         </div>
     )
 }

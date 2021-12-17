@@ -22,7 +22,7 @@ body{
 a{
     text-decoration: none;
     color: inherit;
-}   
+}
 .container{
     width: 100%;
     height: 100%;
@@ -190,7 +190,7 @@ button.white{
 .radio > input[type="radio"]:checked + * {
     color: teal;
 } */
-      
+
 .radio input{
     width: 18px;
     height: 18px;
@@ -306,6 +306,23 @@ button.white{
     width: 50%;
 }
 
+.faq ul {
+    list-style-type: none;
+}
+
+.faq li {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size:20px;
+    padding-top: .7em;
+    padding-bottom: .7em;
+}
+
+.faq h3 {
+    font-weight: bold;
+    font-size:30px;
+}
+
 .blue{
     color: var(--active);
 }
@@ -325,6 +342,7 @@ button.white{
     width: 50%;
     height: 100%;
 }
+<<<<<<< HEAD
 .login .left{
     width: 100%;
     height: 100%;
@@ -364,3 +382,5 @@ button.white{
     position: absolute;
     bottom: 3em;
 }
+=======
+>>>>>>> 4834f8a486a4c0fc1716ac0d63ccd85ec453aee5
