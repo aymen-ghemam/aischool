@@ -4,25 +4,16 @@ import { useState } from 'react';
 import {BsSearch} from 'react-icons/bs'
 import Avatar from './Avatar';
 
-const Navbar = () => {
-    const [state, setstate] = useState({current: 'home'})
-
-    const handleClick = e => {
-        console.log('click ', e);
-        setstate({ current: e.key });
-    };
-
+const Navbar = (props) => {
     return (
       <nav className='navbar'>
-        <div className='logo'>
-
-        </div>
+        <img className='logo' src='../assets/logo.png' alt='logo' />
 
         <ul>
-          <li><a href='#'></a>Home</li>
-          <li><a href='#'></a>Announcements</li>
-          <li><a href='#'></a>Report Emergency</li>
-          <li><a href='#'></a>FAQ</li>
+          <li className={props.current==='home'? 'active': ''} onClick={() => {props.setCurrent('home');}}><a href='#'></a>Home</li>
+          <li className={props.current==='announcements'? 'active': ''} onClick={() => {props.setCurrent('home');}}><a href='#'></a>Announcements</li>
+          <li className={props.current==='report'? 'active': ''} onClick={() => {props.setCurrent('home');}}><a href='#'></a>Report Emergency</li>
+          <li className={props.current==='faq'? 'active': ''} onClick={() => {props.setCurrent('home');}}><a href='#'></a>FAQ</li>
         </ul>
 
         <div class="search">
@@ -32,7 +23,7 @@ const Navbar = () => {
 
         <div className='user'>
           <Avatar />
-          <Avatar />
+          <img src='../assets/split-screen.svg' alt='split screen' />
         </div>
       </nav>
     );
