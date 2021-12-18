@@ -413,6 +413,11 @@ button.white {
   padding-left: 15px;
   padding-bottom: 10px;
 }
+
+.side-bar-menu .elem:hover{
+  cursor: pointer;
+}
+
 .login .left {
   width: 100%;
   height: 100%;
@@ -623,6 +628,16 @@ reqbook .secondary {
   font-size: 1.2em;
   margin: 3rem;
 }
+
+.reqbook button.long.request{
+  width: 20%;
+  padding: 2.5rem;
+  font-size: 1.2em;
+  margin: 20rem;
+  position: absolute;
+  right: 36.5rem;
+}
+
 
 .reqbook h5{
   width: 40%;

@@ -40,6 +40,8 @@ const ReqBook = () => {
             <div className="radiobuttons">
               <SelectArea />
             </div>
+
+            <Button className='blue long request' text = 'Request Document'/>
           </div>
         }
         
