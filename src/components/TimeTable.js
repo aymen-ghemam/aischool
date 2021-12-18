@@ -13,7 +13,7 @@ const TimeTable = () => {
         </div>
       </div>
       <img
-        style={{ position: "fixed", bottom: "0", height:'30%'}}
+        style={{ position: "fixed", bottom: "0", height:'28%'}}
         src="../assets/velo.svg"
         alt=""
       />
