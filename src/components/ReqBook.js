@@ -5,6 +5,7 @@ import SelectArea from "../components/SelectAreaDocs";
 const ReqBook = () => {
   const [state, setState] = useState("request-doc");
 
+
   return (
     <div>
       <div className="container reqbook">
@@ -15,6 +16,7 @@ const ReqBook = () => {
               text="Request Document"
               onClick={() => {
                 setState("request-doc");
+                
               }}
             />
             <Button
@@ -49,10 +51,21 @@ const ReqBook = () => {
             <h4 className="secondary">
               Order an appointment with your administration
             </h4>
+
+            <Button className='blue long' text = 'Book An Appointment'/>
+
+            <h5>Your administration will be ready to receive you in approcimately 1-2 business days.</h5>
             
           </div>
         )}
       </div>
+
+      <img
+        style={{ position: "fixed", bottom: "0", right:'5rem', height:'60%'}}
+        src="../assets/poid.svg"
+        alt=""
+      />
+
     </div>
   );
 };
