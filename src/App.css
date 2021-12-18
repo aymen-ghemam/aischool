@@ -45,7 +45,7 @@ img {
 
 .navbar {
   width: 100%;
-  height: 50px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -54,7 +54,7 @@ img {
 .navbar .logo {
   display: block;
   /* width: 200px; */
-  height: 100%;
+  height: 80px;
   /* background-color: black; */
 }
 
