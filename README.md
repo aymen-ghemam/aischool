@@ -2,6 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Install dependecies 
+
+### ```npm i ```
+
+Remember that you should install node before doing that  
+#### Fedora linux:
+
+For fedora refer to [this link](https://developer.fedoraproject.org/tech/languages/nodejs/nodejs.html)
+
+For Windows and other platforms refer to the [official documentation](https://docs.npmjs.com/cli/v7/configuring-npm/install/)
+
 ## Available Scripts
 
 In the project directory, you can run:
