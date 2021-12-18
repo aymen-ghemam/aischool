@@ -18,7 +18,6 @@ const App = () => {
     const [state, setstate] = useState({current: 'home', popup: false});
     const [popup, setPopup] = useState(false);
     const [page, setPage] = useState('home');
-
     const togglePopup = () => {
         setPopup(!popup);
     }
@@ -50,7 +49,7 @@ const App = () => {
 
             {page === 'student' && <Student />}
 
-            <Bot />
+            <Bot setCurrent={setCurrent} setPage={setPage}/>
             
         </div>
     )

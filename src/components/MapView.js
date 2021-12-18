@@ -53,7 +53,7 @@ const MapView = (props) => {
         <div id='location'>
             <MapContainer
                 center={[36.745, 3]}
-                zoom={16}
+                zoom={12}
                 style={{ height: "80vh" }}
             >
                 <TileLayer
