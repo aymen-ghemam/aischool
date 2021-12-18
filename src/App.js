@@ -11,8 +11,7 @@ import Navbar from "./components/Navbar";
 import Popup from "./components/Popup";
 import Login from "./pages/Login";
 import Student from "./pages/Student";
-import styled from 'styled-components';
-import ChatBot from 'react-simple-chatbot';
+import Bot from './components/Bot'
 
 const App = () => {
     const [user, setUser] = useState({});
@@ -51,9 +50,7 @@ const App = () => {
 
             {page === 'student' && <Student />}
 
-            {/* <div className='bot'>
-                <ChatBot steps={steps} />
-            </div> */}
+            <Bot />
             
         </div>
     )
