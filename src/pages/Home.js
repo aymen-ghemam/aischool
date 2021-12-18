@@ -33,8 +33,7 @@ const Home = (props) => {
                                 <SelectArea />
                             </div>
                             
-                            <br/>
-                            <h5>Keywords</h5>
+                    
                             <div className='keywords'>
                         </div>
                         

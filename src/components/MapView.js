@@ -54,7 +54,7 @@ const MapView = (props) => {
             <MapContainer
                 center={[36.745, 3]}
                 zoom={16}
-                style={{ height: "100vh" }}
+                style={{ height: "80vh" }}
             >
                 <TileLayer
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'

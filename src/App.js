@@ -17,7 +17,7 @@ const App = () => {
     const [user, setUser] = useState({});
     const [state, setstate] = useState({current: 'home', popup: false});
     const [popup, setPopup] = useState(false);
-    const [page, setPage] = useState('student');
+    const [page, setPage] = useState('home');
 
     const togglePopup = () => {
         setPopup(!popup);
@@ -43,10 +43,10 @@ const App = () => {
     return (
         <div className='page'>
             {popup && <Popup togglePopup={togglePopup} />}
-            <Navbar current={state.current} setCurrent={setCurrent} togglePopup={togglePopup} />
+            <Navbar current={state.current} setCurrent={setCurrent} togglePopup={togglePopup} setPage={setPage} user={user}/>
             <br/>
             {page === 'home' && <Home current={state.current} />}
-            {page === 'login' && <Login />}
+            {page === 'login' && <Login setPage={setPage} user={setUser} />}
 
             {page === 'student' && <Student />}
 

@@ -17,7 +17,7 @@ const Student = () => {
     return (
         <div className = 'page student row'>
             <div>
-                <SideBar name='Sophienez AZOUAOU' subContent='M1 MIV student' changeView={changeView}/>
+                <SideBar name='Sophinez AZZOUAOU' subContent='M1 MIV student' changeView={changeView}/>
             </div>
             {
                 view === 'student-home'?
