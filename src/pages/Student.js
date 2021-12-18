@@ -4,6 +4,7 @@ import {useState} from 'react'
 import Annoucement from '../components/Annoucement'
 import SideBar from '../components/Sidebar'
 import TimeTable from '../components/TimeTable'
+import ReqBook from '../components/ReqBook'
 
 const Student = () => {
 
@@ -40,7 +41,7 @@ const Student = () => {
                 <div className='container'>
                     {view === 'score' && 'score'}
                     {view === 'time-table' && <TimeTable/>}
-                    {view === 'request' && 'request'}
+                    {view === 'request' && <ReqBook/>}
                 </div>
             }
         </div>

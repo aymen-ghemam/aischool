@@ -21,11 +21,11 @@ const SideBar = (props) => {
                     </li>
                     <li className='elements' onClick={ () => props.changeView('score')}>
                         <p className='icon'><BsFillEyeFill /></p>
-                        <p className='elem'>SCORE BUILTIN</p>
+                        <p className='elem'>SCORE BULLETIN</p>
                     </li>
                     <li className='elements' onClick={ () => props.changeView('request')}>
                         <p className='icon'><AiFillMail /></p>
-                        <p className='elem'>REQUEST DOCUCMENTS OR TAKE APOINTEMENTS</p>
+                        <p className='elem'>REQUEST DOCUCMENTS OR BOOK APPOINTEMENTS</p>
                     </li>
                 </ul>
             </div>

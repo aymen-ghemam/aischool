@@ -1,28 +1,24 @@
-import React from 'react'
+import React from "react";
 
 const TimeTable = () => {
-
-    return (
-
-
-        <div className = 'page time-table row' style={{
-            backgroundImage: 'url(../assets/velo.svg)',
-            backgroundPosition: 'bottom',
-            backgroundAttachment: 'fixed',
-            backgroundRepeat: 'no-repeat',
-            backgroundSize: '25%'
-        }}>
-        <div className='container'>
-            <h1 className='title'>M1 Computer Vision Timetable</h1>
-            <h4 className='secondary'>Check out the latest updates on your timeline</h4>
-            <div style={{marginTop: '2rem'}}>
-                <img src='../assets/table.svg' alt='' />
-            </div>
+  return (
+    <div>
+      <div className="container">
+        <h1 className="title">M1 Computer Vision Timetable</h1>
+        <h4 className="secondary">
+          Check out the latest updates on your timeline
+        </h4>
+        <div style={{ marginTop: "2rem" }}>
+          <img src="../assets/table.svg" alt="" />
         </div>
+      </div>
+      <img
+        style={{ position: "fixed", bottom: "0", height:'30%'}}
+        src="../assets/velo.svg"
+        alt=""
+      />
+    </div>
+  );
+};
 
-
-        </div>
-    )
-}
-
-export default TimeTable
+export default TimeTable;
